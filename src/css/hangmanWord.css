@@ -1,0 +1,14 @@
+.word{
+     display: flex;
+     flex-wrap: wrap;
+     gap: 0.4rem;
+     font-size: 3rem;
+     font-weight: 800;
+     text-transform: uppercase;
+}
+
+.letterContainer{
+     width: 50px;
+     text-align: center;
+     border-bottom: 5px solid #474E68;
+}

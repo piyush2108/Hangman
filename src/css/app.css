@@ -1,0 +1,42 @@
+@import "./hangmanDraw.css";
+@import "./hangmanWord.css";
+@import "./keyboard.module.css";
+
+*, *::before, *::after{
+     margin: 0;
+     box-sizing: border-box;
+}
+
+body{
+     margin: auto;
+     max-width: 1000px;
+     background: #DEF5E5;
+     font-family: 'Montserrat', sans-serif;
+}
+
+.heading{
+     text-align: center;
+     margin: 0 auto;
+     font-family: 'Poor Story', cursive;
+     color: #8EC3B0;
+     text-shadow: 1px 1px 3px #000, 0 0 5px #8EC3B0;
+     font-size: 2.5rem;
+}
+
+.playArea{
+     margin: 0 auto;
+     padding-bottom: 2%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     gap: 2rem;
+}
+
+.resultMessage{
+     margin-top: 0;
+     text-align: center;
+     font-size: 2rem;
+     font-weight: bold;
+     color: #404258;
+     font-family: 'Mali', cursive;
+}
