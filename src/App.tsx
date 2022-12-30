@@ -92,7 +92,8 @@ function App() {
         </div>
 
         <div className="footer">
-          <p>💜Hangman Game💜</p>
+          <p>💜Hangman💜</p>
+          <p>Designed and Developed by Piyush Sharma</p>
         </div>
         
       </div>
